@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="./css/students.css">
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<script>
+function myfun()
+{
+	
+	document.getElementById("do-login").action="studentback.jsp";
+}
+
+
+</script>
+
+
+</head>
+<body>
+ <form onsubmit="myfun()" action="studentback.jsp" class="myform">
+<section class='login' id='login'>
+  <div class='head'>
+   
+   <i class="fas fa-unlock"></i>
+    <h1 class='company'>STUDENT LOGIN</h1>
+  </div>
+  
+  <div class='form'>
+   
+     
+        
+      <input type="text" placeholder='Pupin_No' name="pupin" class='text'  required>
+      <br/>
+      <input type="text" placeholder='Name' name="name" class='text'  required>
+      <br/>
+       <select name="Dept"  id="username" required>
+		<option value="-1" id="background">Dept</option>
+		<option value="Dcsa" id="background">DCSA</option>
+		
+		</select>
+		
+	
+		<br/>
+       <input type="password" placeholder='Password' name="password" class='textt'  required>
+		
+     <br/>
+		
+      <input type="submit" class='btn-login' id='do-login' value="LOGIN">
+     <a class="forgot" href="register.html">Not a Member?</a>
+   
+  </div>
+</section>
+ </form>
+</body>
+</html>

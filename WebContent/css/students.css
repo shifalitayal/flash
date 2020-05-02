@@ -1,0 +1,139 @@
+body {
+  background: #ABCDEF;
+  font-family: Assistant, sans-serif;
+  display: flex;
+  min-height: 90vh;
+}
+.myform{
+	margin-top:3%;
+	margin-left:30%;
+}
+.login {
+  color: white;
+  background: background: #136a8a;
+  background: 
+    -webkit-linear-gradient(to right, #267871, #136a8a);
+  background: 
+    linear-gradient(to right, #267871, #136a8a);
+  margin: auto;
+  box-shadow: 
+    0px 2px 10px rgba(0,0,0,0.2), 
+    0px 10px 20px rgba(0,0,0,0.3), 
+    0px 30px 60px 1px rgba(0,0,0,0.5);
+  border-radius: 8px;
+  padding-top: 30px;
+  padding-bottom:50px;
+  padding-left:74px;
+  padding-right:62px;
+}
+
+.login .head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login .head .company {
+  font-size: 2.2em;
+  padding-left:8px;
+}
+.fas{
+	font-size:35px;
+}
+.login .msg {
+  text-align: center;
+}
+.myform .login input[type=text].text {
+  border: none;
+  background:none;
+  box-shadow: 0px 2px 0px 0px white;
+  width: 95%;
+  color: #eceded;
+  font-size: 1em;
+  padding-top:16px;
+  line-height:47px;
+  outline: none;
+}
+.myform .login .text::placeholder {
+  color: #D3D3D3;
+}
+.myform .login input[type=password].textt {
+  border: none;
+  background: 
+    linear-gradient(to right, #267871, #136a8a);
+  box-shadow: 0px 2px 0px 0px white;
+  width: 95%;
+  color: #eceded;
+  padding-top:25px;
+  font-size: 1em;
+  line-height:46px;
+  outline: none;
+  
+}
+.myform .login .textt::placeholder {
+  color: #D3D3D3;
+}
+
+select{
+		width:80px;
+		border-radius:.25rem;
+		padding:.375rem .75rem;
+		background-color: #fff;
+		background-clip: padding-box;
+		border:1px solid #ced4da;
+		line-height: 47px;
+}
+
+#username{
+	width:323px;
+	margin-top:21px;
+	color:#eceded;
+	border-bottom:solid #eceded;
+	border-left:none;
+	border-right:none;
+	border-top:none;
+	padding-top:10px;
+	font-weight:100;
+	padding-bottom:11px;
+	font-size:15px;
+	padding-left:0;
+	background:linear-gradient(to right,#267871,#136a8a);
+}
+#background{
+	color:black;
+}
+.fas{
+	font-size:40px;
+}
+.myform .login .password::placeholder {
+  color: #D3D3D3;
+}
+.login p{
+	margin-top:30px;
+}
+.myform .login input[type=submit i]
+{
+	
+    
+   color:white;
+   background-color:#267871;
+   border-radius:13px;
+   width:94px;
+   height:33px;
+   margin-top:30px;
+   margin-left:54px;
+   border-color:#ABCDEF;
+}
+.myform .login input[type=submit i]:hover{
+	color:black;
+	background-color:white;
+}
+
+.myform .login .forgot {
+  text-decoration: none;
+  color: white;
+  
+  margin-top:-53px;
+ 
+  padding-left:9px;
+  margin-right:50px;
+}

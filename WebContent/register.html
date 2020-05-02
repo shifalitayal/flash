@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="./css/register.css">
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<script>
+function myFun()
+{
+var pass1 = document.getElementById("pass").value;
+var pass2 = document.getElementById("rpass").value;
+if (pass1 != pass2) {
+    alert("Passwords Do not match");
+    top.location.href="register.html";
+}
+else {
+	alert("Registered Successfully..");
+	document.getElementById('regForm').action="register.jsp";
+    
+}
+}
+
+</script>
+</head>
+<body>
+   
+  
+ <form onsubmit="myFun()"  class="myform" id="regForm">
+<section class='login' id='login'>
+  
+  
+      <div class="container">
+  <div class="row header">
+    <h1>Register To Vote &nbsp;</h1>
+    
+  </div>
+  
+  <div class='form'>
+   
+   <ul><li><input type="text" placeholder='Pupin_no' name="pupin" class='text'  required> </li></ul>
+      <ul>
+      <li><input type="text" placeholder='Name' name="name" class='text'  required></li>
+     <li>
+        <select name="dept"  class="username" required>
+		<option value="-1" id="background"> Choose Dept</option>
+		<option value="dcsa" id="background">DCSA</option>
+		
+		</select>
+		</li>
+		
+		</ul>
+		<ul>
+		<li>
+		 <select name="Class" class="username" required>
+		<option value="-1" id="background1" > Choose Course</option>
+		<option value="Mca" id="background1">MCA</option>
+		<option value="Msc" id="background1">M.Sc</option>
+		<option value="phd" id="background1">P.hd</option>
+		</select>
+		</li>
+		<li><input type="email" placeholder='Email_id' name="emailid" class='text'   required></li>
+		 
+		</ul>
+		<ul>
+		 <li>
+		 <input type="text" placeholder='Roll_No' name="rollno" class='text'  id="roll" required>
+		 </li>
+		
+		<li>
+		<select name="year"  class="username" required>
+		<option value="-1" id="background2" >Year</option>
+		<option value="1" id="background2"  >Ist</option>
+		<option value="2" id="background2" >2nd</option>
+		<option value="3" id="background2" >3rd</option>
+		</select>
+		</li>
+		</ul>
+		<ul><li> <input type="password" placeholder='Enter password' id="pass" name="password" class='textt'  required></li></ul>
+		  <ul><li><input type="password" placeholder='Enter Confirm Password' id="rpass" name="confirm" class='textt'  required></li></ul>
+		<ul>
+		<li class="register"> <input type="submit" class='btn-login' id='do-login' value="Register"></li>
+	    <a  href="login.html" class="forgot">Already a Member?</a>
+		</ul>
+     
+   
+  </div>
+  </div>
+</section>
+ </form>
+  
+   
+</body>
+</html>

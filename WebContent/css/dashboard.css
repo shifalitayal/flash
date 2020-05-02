@@ -1,0 +1,115 @@
+body{
+	background: url("../panjab_university.jpg") no-repeat center center fixed;
+
+  
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+.color{
+	background-color:grey;
+	
+	height:70px;
+	padding:1px 2px;
+}
+.color .heading{
+	padding:0rem 1rem;
+}
+ul li{
+	display:inline;
+	float:left;
+	font-size:21px;
+  font-weight:1200;
+    border-radius: 4px;
+	padding:16px 30px;
+	line-height:15px;
+	color:white;
+	
+}
+ li:active{
+	color:grey;
+}
+ ul li:hover {
+   
+  
+    background: linear-gradient(to right,#267871, #136a8a);
+  }
+  ul li a{
+ text-decoration:none;
+ 
+ color:white
+ }
+ 
+ 
+ .dropdown {
+	  float: right;
+	  overflow: hidden;
+		padding-left: 400px;
+		padding-right:40px;
+		border-color:solid white;
+	}
+	.color .dropdown b{
+	padding-top:5px;
+	line-height:47px;
+	font-weight:200;
+	font-size:20px;
+	}
+	
+ .dropdown .dropbtn {
+	  font-size: 16px;
+	  border: none;
+	  outline: none;
+	  color: white;
+	  padding: -30px 12px;
+	  background-color:inherit;
+	  font-family: inherit;
+	  margin: 0;
+	}
+
+	 .dropbtn {
+	  color: white;
+
+	}
+	
+ .dropdown-content {
+	  display: none;
+	  position: absolute;
+	 color:white;
+	  min-width: 140px;
+	  box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.2);
+	  z-index: 1;
+	 border-color:solid white;
+	  border-radius: 3px;
+	  padding-top:10px;
+	  padding-bottom:10px;
+	   background:linear-gradient(to right,#267871,#136a8a);
+	}
+
+ .dropdown-content a {
+	  float: none;
+	  color: white;
+	  padding: 6px 6px;
+	  text-decoration: none;
+	  display: block;
+	  font-size: 18px;
+	  text-align: center;
+	}
+
+
+
+ .dropdown:hover .dropdown-content {
+	  display: block;
+	  background-color:#267871;
+	}
+img {
+	  float: left;
+	  -moz-border-radius: 5px;
+	  -webkit-border-radius: 5px;
+	  border-radius: 23px;
+	}
+.dropdown-content button.button{
+	  border-color: transparent;
+	  margin-left:33px;
+	  color:white;
+	  background-color:#267871;
+	}

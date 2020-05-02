@@ -1,0 +1,279 @@
+body{
+	background: url("../lightback.jfif") no-repeat center center fixed;
+
+  height:100%;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+.color{
+	background-color:grey;
+	
+	height:57px;
+	padding:1px 2px;
+}
+.color .heading{
+	padding:0rem 1rem;
+}
+.heading ul li{
+	display:inline;
+	float:left;
+	font-size:21px;
+  font-weight:1200;
+    border-radius: 4px;
+	padding:8px 30px;
+	line-height:15px;
+	color:white;
+	
+}
+.heading ul li.active{
+	background:linear-gradient(to right,#267871,#136a8a);
+}
+ .heading li:active{
+	color:grey;
+}
+ .heading ul li:hover {
+   
+  
+    background: linear-gradient(to right,#267871, #136a8a);
+  }
+  .heading ul li a{
+ text-decoration:none;
+ 
+ color:white
+ }
+ 
+ 
+ .dropdown {
+	  float: right;
+	  overflow: hidden;
+		padding-left: 400px;
+		padding-right:40px;
+		border-color:solid white;
+	}
+	.color .dropdown b{
+	padding-top:5px;
+	line-height:36px;
+	font-weight:200;
+	font-size:20px;
+	}
+	
+ .dropdown .dropbtn {
+	  font-size: 16px;
+	  border: none;
+	  outline: none;
+	  color: white;
+	  padding: -30px 12px;
+	  background-color:inherit;
+	  font-family: inherit;
+	  margin: 0;
+	}
+
+	 .dropbtn {
+	  color: white;
+
+	}
+	
+ .dropdown-content {
+	  display: none;
+	  position: absolute;
+	 color:white;
+	  min-width: 140px;
+	  box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.2);
+	  z-index: 1;
+	 border-color:solid white;
+	  border-radius: 3px;
+	  padding-top:10px;
+	  padding-bottom:10px;
+	   background:linear-gradient(to right,#267871,#136a8a);
+	}
+
+ .dropdown-content a {
+	  float: none;
+	  color: white;
+	  padding: 6px 6px;
+	  text-decoration: none;
+	  display: block;
+	  font-size: 18px;
+	  text-align: center;
+	}
+
+
+
+ .dropdown:hover .dropdown-content {
+	  display: block;
+	  background-color:#267871;
+	}
+img {
+	  float: left;
+	  -moz-border-radius: 5px;
+	  -webkit-border-radius: 5px;
+	  border-radius: 23px;
+	}
+.dropdown-content button.button{
+	  border-color: transparent;
+	  margin-left:33px;
+	  color:white;
+	  background-color:#267871;
+}
+.details{
+	border-top:2px solid black;
+}
+.voting .details h3{
+	text-align:center;
+	color:black;
+	word-spacing:10px;
+	letter-spacing:1px;
+	font-size:20px;
+	font-style:oblique;
+	margin-bottom:-10px;
+	padding-top:10px;
+	background:linear-gradient(to right,#b4c0bf,transparent);
+
+}
+.mydetails{
+	padding-top:8px;
+}
+.mydetails ul li{
+	display:inline;
+	font-size:20px;
+	color:black;
+	padding-left:36px;
+	padding-right:10px;
+}
+.mydetails input[type=text].text{
+	border-radius:3px;
+	border-bottom-color:grey;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	background:transparent;
+}
+.mydetails input[type=text].text::placeholder{
+	color:black;
+}
+.mydetails ul li select
+{
+		width:150px;
+		border-radius:3px;
+		padding:.375rem .70rem;
+		background-color: transparent;
+		background-clip: padding-box;
+		border:1px solid #ced4da;
+		line-height: 1.5;
+		border: solid grey;
+		border-top:none;
+	border-left:none;
+	border-right:none;
+}
+.campus{
+	padding-top:10px;
+	height:250px;
+}
+.campus .vote{
+	border-top-color:black;
+}
+.campus .vote h3{
+	text-align:center;
+	color:black;
+	letter-spacing:1px;
+	font-size:20px;
+	word-spacing:10px;
+	font-style:oblique;
+	margin-bottom:-10px;
+	padding-top:10px;
+	background:linear-gradient(to right,#b4c0bf,transparent);
+}
+.myvoting table{
+	margin-left:25px;
+}
+ .campus .myvoting table tbody{
+	padding-top:30px;
+	margin-top:10px;
+	font-size:20px;
+	line-height:50px;
+	font-weight:400;
+	color:#1c1616;
+	
+}
+.myvoting #campusdata table td #heading{
+	color:black;
+	font-weight:600;
+}
+.student{
+	padding-top:10px;
+	height:200px;
+
+}
+.student .drvote h3{
+	text-align:center;
+	color:black;
+	letter-spacing:1px;
+	word-spacing:10px;
+	font-size:20px;
+	font-style:oblique;
+	margin-bottom:-10px;
+	padding-top:10px;
+	margin-top:28px;
+	border-top-color:black;
+	background:linear-gradient(to right,#b4c0bf,transparent);
+}
+.student .myvote{
+	border-top-color:black;
+}
+.myvote table{
+	margin-left:0px;
+}
+.myvote table td{
+	padding-top:70px;
+	font-size:20px;
+	padding-left:50px;
+	line-height:50px;
+	padding-right:40px;
+	font-weight:400;
+	color:#1c1616;
+	
+}
+
+.login input[type=submit i]
+{
+	
+    
+   color:white;
+	background:linear-gradient(to right,#267871,#136a8a);
+   border-radius:13px;
+   width:94px;
+   height:33px;
+   border-color:#ABCDEF;
+}
+.login {
+	text-align:center;
+	padding-top:inherit;
+}
+.login input[type=submit i]:hover{
+	color:black;
+	background-color:grey;
+}	
+.login .btn-login {
+  
+  text-decoration: none;
+  color: white;
+  box-shadow: 0px 0px 0px 2px #ABCDEF;
+  border-radius: 3px;
+  width:100px;
+  padding-left:39px;
+  padding-right:191px;
+  line-height:33px;
+  transition: 0.5s;
+  background:linear-gradient(to right,#b4c0bf,transparent);
+}
+.login .btn-login:hover {
+  background: white;
+  color: dimgray;
+  transition: 0.5s;
+}
+
+.myvoting #campusdata tbody  td{
+	padding-left:50px;
+	padding-right:40px;
+}
